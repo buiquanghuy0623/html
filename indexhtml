@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đọc Truyện Trực Tuyến</title>
+    <!-- Bước 6: Nhúng file styles.css vào trang HTML -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Bước 4: Tạo ảnh truyện đặt ở đầu trang -->
+    <img src="https://via.placeholder.com/800x300" alt="Banner Truyện" class="story-banner">
+
+    <!-- Tiêu đề chính của truyện (Bước 7) -->
+    <h1>Hành Trình Khám Phá Thế Giới Số</h1>
+
+    <!-- Bước 1 & 5: Tạo các mục lục truyện sử dụng thẻ <h5> -->
+    <div class="toc-container">
+        <h3>Mục Lục Truyện</h3>
+        <ul>
+            <li>
+                <h5><a href="#chuong-1">Chương 1: Khởi đầu mới</a></h5>
+            </li>
+            <li>
+                <h5><a href="#chuong-2">Chương 2: Thử thách đầu tiên</a></h5>
+            </li>
+            <li>
+                <h5><a href="#chuong-3">Chương 3: Vượt qua giới hạn</a></h5>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Bước 2 & 3: Tạo nội dung ứng với từng mục lục và liên kết (anchor links) -->
+    <div class="content">
+        <!-- Chương 1 -->
+        <div id="chuong-1" class="chapter">
+            <h2>Chương 1: Khởi đầu mới</h2>
+            <p>
+                Ánh nắng ban mai chiếu rọi qua từng kẽ lá, đánh thức cả một vùng quê yên bình. Cậu thanh niên trẻ bước ra khỏi hiên nhà, hít một hơi thật sâu bầu không khí trong lành. Hôm nay là một ngày đặc biệt, ngày đánh dấu bước ngoặt lớn trong cuộc đời khi cậu quyết định rời làng để vươn ra biển lớn, tìm kiếm những chân trời tri thức mới.
+            </p>
+            <p>
+                Trên con đường mòn quen thuộc, từng bước chân vang lên đều đặn. Dù biết phía trước sẽ có vô vàn chông gai và thử thách đang chờ đợi, trong lòng cậu vẫn sục sôi ngọn lửa đam mê và khát vọng chinh phục những đỉnh cao mới.
+            </p>
+        </div>
+
+        <!-- Chương 2 -->
+        <div id="chuong-2" class="chapter">
+            <h2>Chương 2: Thử thách đầu tiên</h2>
+            <p>
+                Thành phố hiện lên với những tòa nhà cao tầng chọc trời và dòng xe cộ tấp nập ngược xuôi. Mọi thứ diễn ra nhanh đến mức khiến một kẻ lần đầu đặt chân tới đây không khỏi cảm giác choáng ngợp. Tiếng còi xe, tiếng người hò hẹn, tất cả hòa quyện tạo thành một bản giao hưởng đô thị đầy sống động nhưng cũng không kém phần khắc nghiệt.
+            </p>
+            <p>
+                Ngay tại ngã rãnh đầu tiên, cậu gặp phải bài toán khó về định hướng công việc cũng như chỗ ở. Thế nhưng, nhờ sự nhạy bén và tinh thần không ngại khó, cậu dần thích nghi, tìm được những người bạn đồng hành tuyệt vời cùng chung chí hướng.
+            </p>
+        </div>
+
+        <!-- Chương 3 -->
+        <div id="chuong-3" class="chapter">
+            <h2>Chương 3: Vượt qua giới hạn</h2>
+            <p>
+                Trải qua bao thăng trầm và những đêm dài miệt mài bên bàn làm việc, cuối cùng thành quả ngọt ngào cũng đã đến. Dự án công nghệ mà nhóm dày công xây dựng đã chính thức ra mắt và nhận được sự đón nhận nồng nhiệt từ cộng đồng. 
+            </p>
+            <p>
+                Nhìn lại chặng đường đã đi qua, cậu mỉm cười nhận ra rằng: khó khăn không phải để cản bước chân ta, mà là thứ tôi luyện ý chí, giúp ta phiên bản tốt hơn của chính mình ngày hôm qua.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
